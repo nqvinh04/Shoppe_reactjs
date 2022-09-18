@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar-right {
+    display: flex;
+    padding-left: 10px;
+}
+
+.navbar-right-border {
+    padding: 10px;
+}
+
+.navbar-right a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.navbar-right hr{
+    width: 1px;
+    height: 15px;
+
+}
+
+.navbar-space {
+    /*flex: 1;*/
+}
+
