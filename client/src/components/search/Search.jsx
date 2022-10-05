@@ -8,14 +8,20 @@ const Search = () => {
     }
 
     return (
-        <div>
+        <div className="header-with-search_search-section">
+            <div className="shopee-searchbar">
+                <div className="shopee-searchbar__main">
+                    <form >
+
+                    </form>
+                </div>
+            </div>
             <input type="text"
                    placeholder="Sale Xả Hàng"/>
             <button
                 type="button"
                 onClick={handleSearch()}
             />
-            <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
         </div>
     )
 }

@@ -1,7 +1,11 @@
 .shopee-top{
     background: linear-gradient(-180deg,#f53d2d,#f63);
     transition: transform .2s cubic-bezier(.4,0,.2,1);
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     padding: 0 300px 0 300px;
+    /*font-size: 0.875rem;*/
+    font-size: 11px;
 }
 
 .shopee-top--sticky {
@@ -14,7 +18,7 @@
 }
 
 .navbar-wrapper {
-    height: 2.125rem;
+    /*height: 2.125rem;*/
     z-index: 400;
     background: transparent;
     position: relative;
@@ -27,7 +31,7 @@
 
 .logo img{
     display: block;
-    max-width:150px;
+    max-width:100px;
     max-height:50px;
     width: auto;
     height: auto;

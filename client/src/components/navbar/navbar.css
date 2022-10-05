@@ -11,26 +11,79 @@
 
 .navbar-right {
     display: flex;
-    padding-left: 10px;
-}
-
-.navbar-right-border {
-    padding: 8px;
+    padding: 10px 0;
 }
 
 .navbar-right a{
+    padding: 10px 5px;
     text-decoration: none;
     cursor: pointer;
     color: #ffffff;
 }
 
-.navbar-right hr{
-    width: 1px;
-    height: 15px;
-
+.navbar-right-hr {
+    height: 0.9375rem;
+    border-left: 1px solid hsla(0,0%,100%,.22);
+    /*border-right: 1px solid hsla(0,0%,100%,.22);*/
 }
+
+/*.navbar-right-hr a{*/
+/*    padding: 0 5px;*/
+/*}*/
+
+.logo_icon {
+    display: flex;
+    color: #ffffff;
+}
+
+.logo_icon a{
+    padding: 0 5px;
+}
+
+.logo_icon div{
+    padding-left: 5px;
+}
+
+.logo_icon img{
+    display: block;
+    max-width:15px;
+    max-height:15px;
+}
+
 
 .navbar-space {
     /*flex: 1;*/
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-left ul{
+    display: flex;
+    color: #ffffff;
+    gap: 10px;
+}
+
+.navbar-left li{
+    display: inline-block;
+}
+
+.navbar-left li a{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    gap: 5px;
+}
+
+.navbar-left li div{
+    display: flex;
+    gap: 5px;
+}
+
+.navbar-left li img{
+    display: block;
+    max-width:15px;
+    max-height:15px;
 }
 
