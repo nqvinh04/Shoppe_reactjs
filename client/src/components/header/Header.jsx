@@ -1,9 +1,9 @@
 import React from "react";
 import Search from "../search/Search";
-import logo  from "../../image/logo-full-white.png";
 import "./header.css";
 import Navbar from "../navbar/Navbar";
 import Cart from "../cart/Cart";
+import Logo from "../logo/Logo";
 
 const Header = () => {
     return (
@@ -12,9 +12,7 @@ const Header = () => {
                 <Navbar/>
             </div>
             <div className="header-with-search-wrapper">
-                <div className="logo">
-                    <img src={logo} alt='logo'/>
-                </div>
+                <Logo/>
                 <Search/>
                 <Cart/>
             </div>
