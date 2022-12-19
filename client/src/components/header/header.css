@@ -24,7 +24,28 @@
     position: relative;
 }
 
+.header-with-search {
+    display: flex;
+    height: 5.315rem;
+    justify-content: space-between;
+    padding: 1rem 0 0.625rem;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+
+.container-wrapper {
+    min-width: 1200px;
+}
+
 .header-with-search-wrapper {
+    /*background: #ffffff;*/
+    /*box-shadow: 0 0.0625rem 0.15625rem rgb(0 0 0 / 5%);*/
+    background: transparent;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 5%);
     display: flex;
     justify-content: space-between;
 }
