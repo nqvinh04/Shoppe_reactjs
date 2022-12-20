@@ -1,2 +1,5 @@
 /.vscode
 .vscode
+.cache
+/.idea
+/client/node_modules/.cache

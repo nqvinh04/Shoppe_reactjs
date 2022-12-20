@@ -1,0 +1,25 @@
+.header-with-search_search-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 840px;
+    position: relative;
+}
+
+.shopee-searchbar {
+    --focus-indicator-spacing: 3px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 2.5rem;
+    box-sizing: border-box;
+    padding: 0.1875rem;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+.header-with-search_search-section > .shopee-searchbar {
+    width: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 9%);
+}
+
