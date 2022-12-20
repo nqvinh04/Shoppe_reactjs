@@ -1,6 +1,6 @@
-.shopee-top{
-    background: linear-gradient(-180deg,#f53d2d,#f63);
-    transition: transform .2s cubic-bezier(.4,0,.2,1);
+.shopee-top {
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    transition: transform .2s cubic-bezier(.4, 0, .2, 1);
     /*margin-left: auto;*/
     /*margin-right: auto;*/
     padding: 0 300px 0 300px;
@@ -31,10 +31,21 @@
     padding: 1rem 0 0.625rem;
 }
 
+.header-with-search,
+.header-with-search__cart-wrapper,
+.header-with-search__logo-section {
+    box-sizing: border-box;
+}
+
 .container {
     margin-right: auto;
     margin-left: auto;
     width: 1200px;
+}
+
+.shopee-top--sticky .header-with-search .container{
+    width: inherit;
+    max-width: 1200px;
 }
 
 .container-wrapper {
