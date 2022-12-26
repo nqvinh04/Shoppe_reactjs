@@ -5,11 +5,13 @@
     flex: 1;
     padding-bottom: 5px;
     margin: 0 10px;
-    box-sizing: border-box;
 }
 
 .stardust-popover {
     position: relative;
+}
+div {
+    display: block;
 }
 
 .stardust-popover__target {}
@@ -46,7 +48,7 @@ a{
     margin-right: 0.625rem;
 }
 
-.shopee-png-icon {
+.shopee-svg-icon {
     display: inline-block;
     width: 1em;
     height: 1em;
@@ -54,12 +56,16 @@ a{
     position: relative;
 }
 
-.cart-drawer .icon-shop-card-2 {
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.cart-drawer .icon-shopping-cart-2 {
     color: #ffffff;
     stroke: #ffffff;
 }
 
-.navbar__link-icon .icon-shop-card-2 {
+.navbar__link-icon .icon-shopping-cart-2 {
     fill: currentColor;
     width: 26px;
     height: 26px;

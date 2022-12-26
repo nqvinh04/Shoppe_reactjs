@@ -127,7 +127,47 @@ svg:not(:root) {
     margin:  0 auto;
 }
 
+div {
+    display: block;
+}
 
+.FaT0DB {
+    flex: 1;
+}
 
+.FaT0DB .pFceVI {
+    width: 100%;
+    display: flex;
+}
 
+a:-webkit-any-link {
+    /*color: -webkit-link;*/
+    cursor: pointer;
+    /*text-decoration: underline;*/
+}
 
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.UPUwyq {
+    text-decoration: none;
+    color: rgb(0, 0, 0, .87);
+    position: relative;
+    overflow: visible;
+    outline: 0;
+    white-space: nowrap;
+    display: block;
+    color: rgba(0, 0, 0, .54);
+    margin-left: 13px;
+    color: hsla(0, 0%, 100%, .9);
+    height: 0.875rem;
+    line-height: 0.875rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.3125rem;
+}
+
+.UPUwyq:first-child {
+    margin-left: 0;
+}
