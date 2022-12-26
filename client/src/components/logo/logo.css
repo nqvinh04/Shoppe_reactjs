@@ -1,7 +1,58 @@
-.header-with-search__logo-section img{
+/*.header-with-search__logo-section img{*/
+/*    display: block;*/
+/*    max-width:100px;*/
+/*    max-height:50px;*/
+/*    width: auto;*/
+/*    height: auto;*/
+/*}*/
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.header-with-search__logo-section {
+    position: relative;
+    top: -0.1875rem;
+    padding-right: 2.5rem;
+}
+
+div {
     display: block;
-    max-width:100px;
-    max-height:50px;
-    width: auto;
-    height: auto;
+}
+
+.header-with-search__logo-wrapper {
+    padding: 2px;
+    margin: -2px;
+    border-radius: 2px;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+}
+
+.shopee-svg-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+    position: relative;
+}
+
+.icon-shopee-logo {
+    width: 11.875rem;
+    height: 4rem;
+    fill: #ffffff;
+}
+
+.header-with-search__shopee-logo.icon-shopee-logo {
+    display: block;
+    width: 162px;
+    height: 50px;
+}
+
+.header-with-search-wrapper .header-with-search__shopee-logo {
+    width: 162px;
+    height: 50px;
 }
