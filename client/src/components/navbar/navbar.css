@@ -52,11 +52,19 @@
 
 
 .navbar-space {
-    /*flex: 1;*/
+    flex: 1;
 }
 
-.navbar-left {
+.navbar__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 2.125rem;
+}
+
+.navbar__link, .navbar__links {
     display: flex;
+    align-items: center;
 }
 
 .navbar-left ul{

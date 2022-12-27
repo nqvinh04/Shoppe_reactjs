@@ -31,9 +31,9 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-space"></div>
-            <div className="navbar-left">
-                <ul>
-                    <li>
+            <div>
+                <ul className="navbar__links">
+                    <li className="">
                         <Link to='/notification'>
                             <img src={notification} alt="notification"/>
                             Thông Báo
@@ -56,6 +56,7 @@ const Navbar = () => {
                             Đăng Ký
                         </Link>
                     </li>
+                    <div className="navbar__link-separator"></div>
                     <li>
                         <Link to='/login'>
                             Đăng Nhập

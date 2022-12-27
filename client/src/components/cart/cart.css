@@ -65,7 +65,7 @@ svg:not(:root) {
     stroke: #ffffff;
 }
 
-.navbar__link-icon .icon-shopping-cart-2 {
+.navbar__link-icon.icon-shopping-cart-2 {
     fill: currentColor;
     width: 26px;
     height: 26px;
